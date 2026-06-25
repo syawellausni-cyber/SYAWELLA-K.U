@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portofolio Profesional Syawella Khairatul Usni - Software Engineer berpengalaman dalam membangun aplikasi web modern, berkinerja tinggi, dan interaktif.">
+  <meta name="keywords" content="Syawella Khairatul Usni, Software Engineer, Frontend Developer, Fullstack Developer, Web Developer Indonesia, Portofolio Engineer, React Developer">
+  <meta name="author" content="Syawella Khairatul Usni">
+  
+  <!-- Open Graph Meta Tags (Untuk Preview Sosial Media) -->
+  <meta property="og:title" content="Syawella Khairatul Usni | Software Engineer">
+  <meta property="og:description" content="Portofolio Profesional Software Engineer dengan keahlian dalam React, Node.js, dan pengembangan aplikasi web premium.">
+  <meta property="og:image" content="assets/images/profile.jpg">
+  <meta property="og:type" content="website">
+  
+  <title>Syawella Khairatul Usni | Software Engineer</title>
+  
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+  
+  <!-- Feather Icons CDN (Untuk Ikon Vektor yang Bersih) -->
+  <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+</head>
+<body>
+
+  <!-- ==========================================
+       HEADER & NAVIGASI
+       ========================================== -->
+  <header class="header">
+    <div class="container nav-container">
+      <a href="#home" class="logo">
+        Syawella<span class="logo-dot"></span>
+      </a>
+      
+      <nav class="nav-menu" id="nav-menu">
+        <a href="#home" class="nav-link active">Beranda</a>
+        <a href="#about" class="nav-link">Tentang</a>
+        <a href="#skills" class="nav-link">Keahlian</a>
+        <a href="#projects" class="nav-link">Proyek</a>
+        <a href="#experience" class="nav-link">Pengalaman</a>
+        <a href="#contact" class="nav-link">Kontak</a>
+      </nav>
+      
+      <div class="nav-actions">
+        <button id="theme-toggle" class="theme-toggle" aria-label="Ubah Tema Warna">
+          <i data-feather="moon" class="moon-icon"></i>
+          <i data-feather="sun" class="sun-icon"></i>
+        </button>
+        <button class="mobile-nav-toggle" id="mobile-toggle" aria-label="Buka Menu">
+          <i data-feather="menu"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==========================================
+       HERO SECTION
+       ========================================== -->
+  <section id="home" class="hero">
+    <div class="container hero-grid">
+      <div class="hero-content fade-in-up">
+        <span class="hero-welcome">Selamat Datang di Portofolio Saya</span>
+        <h1 class="hero-title">
+          Halo, Saya <br>
+          <span class="gradient-text">Syawella Khairatul Usni</span>
+        </h1>
+        <h2 class="hero-subtitle">
+          Seorang <span id="typing-text" class="gradient-text"></span>
+        </h2>
+        <p class="hero-desc">
+          Saya mendesain dan membangun aplikasi web yang berskala besar, andal, serta mengutamakan pengalaman pengguna yang interaktif dan responsif. Berfokus pada penulisan kode yang bersih dan solusi arsitektur modern.
+        </p>
+        <div class="hero-cta">
+          <a href="#contact" class="btn btn-primary">
+            Hubungi Saya <i data-feather="mail"></i>
+          </a>
+          <a href="#projects" class="btn btn-secondary">
+            Lihat Proyek <i data-feather="arrow-right"></i>
+          </a>
+        </div>
+        <div class="hero-socials">
+          <span>HUBUNGKAN DENGAN SAYA</span>
+          <a href="https://github.com" target="_blank" class="social-link" aria-label="GitHub">
+            <i data-feather="github"></i>
+          </a>
+          <a href="https://linkedin.com" target="_blank" class="social-link" aria-label="LinkedIn">
+            <i data-feather="linkedin"></i>
+          </a>
+          <a href="mailto:syawella@example.com" class="social-link" aria-label="Email">
+            <i data-feather="mail"></i>
+          </a>
+        </div>
+      </div>
+      
+      <div class="hero-image-container fade-in-up delay-200">
+        <div class="hero-image-glow"></div>
+        <div class="hero-image-wrapper">
+          <img src="assets/images/profile.jpg" alt="Foto Profil Syawella Khairatul Usni">
+        </div>
+        <div class="hero-image-decoration"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       ABOUT SECTION
+       ========================================== -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-header fade-in-up">
+        <span class="section-tag">Tentang Saya</span>
+        <h2 class="section-title">Mari Mengenal <span>Saya Lebih Dekat</span></h2>
+        <div class="section-desc">Kombinasi antara logika teknis, rekayasa perangkat lunak, dan hasrat untuk menciptakan produk digital yang luar biasa.</div>
+      </div>
+      
+      <div class="about-grid">
+        <div class="about-details fade-in-up">
+          <p>
+            Halo! Saya Syawella, seorang Software Engineer yang berdedikasi tinggi dan memiliki hasrat besar dalam mengembangkan solusi teknologi inovatif. Saya percaya bahwa teknologi yang baik adalah teknologi yang dapat mempermudah hidup manusia serta memberikan pengalaman yang menyenangkan.
+          </p>
+          <p>
+            Sejak memulai karir saya di industri rekayasa perangkat lunak, saya telah berkolaborasi dengan berbagai tim untuk merancang dan menerapkan sistem web yang kompleks. Saya selalu antusias untuk mempelajari teknologi baru, memecahkan masalah algoritma, dan mengoptimalkan performa kode guna memberikan hasil yang efisien dan andal.
+          </p>
+          
+          <div class="about-info-grid">
+            <div class="info-item">
+              <div class="info-icon"><i data-feather="book"></i></div>
+              <div>
+                <div class="info-label">PENDIDIKAN</div>
+                <div class="info-value">D3 Informatika Komputer</div>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="info-icon"><i data-feather="map-pin"></i></div>
+              <div>
+                <div class="info-label">LOKASI</div>
+                <div class="info-value">Indonesia, Padang</div>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="info-icon"><i data-feather="briefcase"></i></div>
+              <div>
+                <div class="info-label">STATUS KERJA</div>
+                <div class="info-value">Tersedia untuk Proyek</div>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="info-icon"><i data-feather="globe"></i></div>
+              <div>
+                <div class="info-label">BAHASA</div>
+                <div class="info-value">Indonesia, Inggris</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="about-stats fade-in-up delay-200">
+          <div class="stat-card glass-card">
+            <div class="stat-num">2+</div>
+            <div class="stat-label">Tahun Pengalaman</div>
+          </div>
+          <div class="stat-card glass-card">
+            <div class="stat-num">15+</div>
+            <div class="stat-label">Proyek Diselesaikan</div>
+          </div>
+          <div class="stat-card glass-card">
+            <div class="stat-num">10+</div>
+            <div class="stat-label">Klien Puas</div>
+          </div>
+          <div class="stat-card glass-card">
+            <div class="stat-num">99%</div>
+            <div class="stat-label">Kualitas Kode</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       SKILLS SECTION
+       ========================================== -->
+  <section id="skills" class="section" style="background-color: var(--bg-secondary);">
+    <div class="container">
+      <div class="section-header fade-in-up">
+        <span class="section-tag">Keahlian</span>
+        <h2 class="section-title">Kemampuan & <span>Teknologi Utama</span></h2>
+        <div class="section-desc">Berikut adalah teknologi, alat, dan kerangka kerja perangkat lunak yang secara aktif saya gunakan untuk menyelesaikan tantangan teknis.</div>
+      </div>
+      
+      <div class="skills-grid">
+        <!-- Frontend Development -->
+        <div class="skills-category glass-card fade-in-up">
+          <div class="skills-cat-header">
+            <div class="skills-cat-icon"><i data-feather="layout"></i></div>
+            <h3 class="skills-cat-title">Frontend Dev</h3>
+          </div>
+          <div class="skills-list">
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">HTML5 & CSS3</span>
+                <span class="skill-pct">95%</span>
+              </div>
+              <div class="skill-bar-outer">
+                <div class="skill-bar-inner" data-percent="95"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">JavaScript (ES6+)</span>
+                <span class="skill-pct">90%</span>
+              </div>
+              <div class="skill-bar-outer">
+                <div class="skill-bar-inner" data-percent="90"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">React.js & Next.js</span>
+                <span class="skill-pct">85%</span>
+              </div>
+              <div class="skill-bar-outer">
+                <div class="skill-bar-inner" data-percent="85"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">Responsive & UI Design</span>
+                <span class="skill-pct">90%</span>
+              </div>
+              <div class="skill-bar-outer">
+                <div class="skill-bar-inner" data-percent="90"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Backend Development -->
+        <div class="skills-category glass-card fade-in-up delay-100">
+          <div class="skills-cat-header">
+            <div class="skills-cat-icon"><i data-feather="database"></i></div>
+            <h3 class="skills-cat-title">Backend Dev</h3>
+          </div>
+          <div class="skills-list">
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">Node.js & Express</span>
+                <span class="skill-pct">80%</span>
+              </div>
+              <div class="skill-bar-outer">
+                <div class="skill-bar-inner" data-percent="80"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">RESTful APIs & GraphQL</span>
+                <span class="skill-pct">85%</span>
+              </div>
+              <div class="skill-bar-outer">
+                <div class="skill-bar-inner" data-percent="85"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">SQL (PostgreSQL / MySQL)</span>
+                <span class="skill-pct">75%</span>
+              </div>
+              <div class="skill-bar-outer">
+                <div class="skill-bar-inner" data-percent="75"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">NoSQL (MongoDB)</span>
+                <span class="skill-pct">70%</span>
+              </div>
+              <div class="skill-bar-outer">
+                <div class="skill-bar-inner" data-percent="70"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Tools & Others -->
+        <div class="skills-category glass-card fade-in-up delay-200">
+          <div class="skills-cat-header">
+            <div class="skills-cat-icon"><i data-feather="tool"></i></div>
+            <h3 class="skills-cat-title">Alat & Metodologi</h3>
+          </div>
+          <div class="skills-list">
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">Git & GitHub</span>
+                <span class="skill-pct">90%</span>
+              </div>
+              <div class="skill-bar-outer">
+                <div class="skill-bar-inner" data-percent="90"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">Figma (UI/UX)</span>
+                <span class="skill-pct">80%</span>
+              </div>
+              <div class="skill-bar-outer">
+                <div class="skill-bar-inner" data-percent="80"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">Docker & Container</span>
+                <span class="skill-pct">65%</span>
+              </div>
+              <div class="skill-bar-outer">
+                <div class="skill-bar-inner" data-percent="65"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">Agile & Scrum</span>
+                <span class="skill-pct">85%</span>
+              </div>
+              <div class="skill-bar-outer">
+                <div class="skill-bar-inner" data-percent="85"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       PROJECTS SECTION
+       ========================================== -->
+  <section id="projects" class="section">
+    <div class="container">
+      <div class="section-header fade-in-up">
+        <span class="section-tag">Portofolio</span>
+        <h2 class="section-title">Karya & <span>Proyek Terpilih</span></h2>
+        <div class="section-desc">Galeri proyek-proyek terbaru yang mendemonstrasikan penyelesaian masalah teknis dan pembuatan antarmuka berkualitas tinggi.</div>
+      </div>
+      
+      <!-- Filter Kategori Proyek -->
+      <div class="project-filters fade-in-up">
+        <button class="filter-btn active" data-filter="all">Semua Proyek</button>
+        <button class="filter-btn" data-filter="web">Web Dev</button>
+        <button class="filter-btn" data-filter="mobile">Mobile App</button>
+        <button class="filter-btn" data-filter="uiux">UI/UX Design</button>
+      </div>
+      
+      <!-- Grid Galeri Proyek -->
+      <div class="projects-grid">
+        <!-- Proyek 1 (Web Dev) -->
+        <article class="project-card glass-card fade-in-up" data-category="web">
+          <div class="project-img-wrapper">
+            <img src="assets/images/project1.jpg" alt="Miniatur Proyek Zenith E-Commerce">
+            <div class="project-overlay">
+              <a href="https://github.com" target="_blank" class="project-link" aria-label="Lihat Kode Sumber">
+                <i data-feather="github"></i>
+              </a>
+              <a href="https://demo.com" target="_blank" class="project-link" aria-label="Lihat Demo Langsung">
+                <i data-feather="external-link"></i>
+              </a>
+            </div>
+          </div>
+          <div class="project-content">
+            <div class="project-tags">
+              <span class="project-tag">Next.js</span>
+              <span class="project-tag">Stripe</span>
+              <span class="project-tag">Node.js</span>
+            </div>
+            <h3 class="project-title">Zenith E-Commerce</h3>
+            <p class="project-desc">
+              Platform belanja online dengan performa tinggi, sistem keranjang belanja interaktif, integrasi pembayaran digital menggunakan Stripe, serta dashboard admin terpusat.
+            </p>
+          </div>
+        </article>
+        
+        <!-- Proyek 2 (Web Dev) -->
+        <article class="project-card glass-card fade-in-up delay-100" data-category="web">
+          <div class="project-img-wrapper">
+            <img src="assets/images/project2.jpg" alt="Miniatur Proyek Nexus Smart Dashboard">
+            <div class="project-overlay">
+              <a href="https://github.com" target="_blank" class="project-link" aria-label="Lihat Kode Sumber">
+                <i data-feather="github"></i>
+              </a>
+              <a href="https://demo.com" target="_blank" class="project-link" aria-label="Lihat Demo Langsung">
+                <i data-feather="external-link"></i>
+              </a>
+            </div>
+          </div>
+          <div class="project-content">
+            <div class="project-tags">
+              <span class="project-tag">React</span>
+              <span class="project-tag">Chart.js</span>
+              <span class="project-tag">WebSockets</span>
+            </div>
+            <h3 class="project-title">Nexus Smart Dashboard</h3>
+            <p class="project-desc">
+              Dashboard analitik data real-time untuk pemantauan operasional bisnis, dilengkapi grafik interaktif dinamis, integrasi WebSockets, dan antarmuka dengan performa optimal.
+            </p>
+          </div>
+        </article>
+        
+        <!-- Proyek 3 (Mobile App) -->
+        <article class="project-card glass-card fade-in-up delay-200" data-category="mobile">
+          <div class="project-img-wrapper">
+            <img src="assets/images/project3.jpg" alt="Miniatur Proyek Pulse Fitness Tracker">
+            <div class="project-overlay">
+              <a href="https://github.com" target="_blank" class="project-link" aria-label="Lihat Kode Sumber">
+                <i data-feather="github"></i>
+              </a>
+              <a href="https://demo.com" target="_blank" class="project-link" aria-label="Lihat Demo Langsung">
+                <i data-feather="external-link"></i>
+              </a>
+            </div>
+          </div>
+          <div class="project-content">
+            <div class="project-tags">
+              <span class="project-tag">Flutter</span>
+              <span class="project-tag">Firebase</span>
+              <span class="project-tag">Dart</span>
+            </div>
+            <h3 class="project-title">Pulse Health Tracker</h3>
+            <p class="project-desc">
+              Aplikasi mobile pelacak kebugaran kesehatan pribadi, menampilkan grafik kemajuan aktivitas fisik, notifikasi push interaktif, dan penyimpanan cloud real-time Firebase.
+            </p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       EXPERIENCE SECTION
+       ========================================== -->
+  <section id="experience" class="section" style="background-color: var(--bg-secondary);">
+    <div class="container">
+      <div class="section-header fade-in-up">
+        <span class="section-tag">Riwayat</span>
+        <h2 class="section-title">Perjalanan Karir <span>& Akademik</span></h2>
+        <div class="section-desc">Linimasa perkembangan profesional dan latar belakang akademis saya di bidang teknologi rekayasa perangkat lunak.</div>
+      </div>
+      
+      <div class="experience-container">
+        <!-- Garis Timeline Tengah -->
+        <div class="experience-timeline"></div>
+        
+        <div class="experience-list">
+          <!-- Pekerjaan 1 -->
+          <div class="exp-item fade-in-up">
+            <div class="exp-icon-wrapper">
+              <i data-feather="briefcase"></i>
+            </div>
+            <div class="exp-card glass-card">
+              <div class="exp-meta">
+                <span class="exp-duration">2025 - Sekarang</span>
+                <span class="exp-company">TechNova Solutions</span>
+              </div>
+              <h3 class="exp-role">Software Engineer</h3>
+              <p class="exp-desc">
+                Memimpin pengembangan modul frontend aplikasi web inti menggunakan React dan Next.js, meningkatkan kecepatan pemuatan halaman sebesar 30%, serta berkolaborasi aktif dalam merancang RESTful API yang aman menggunakan Node.js.
+              </p>
+            </div>
+          </div>
+          
+          <!-- Pekerjaan 2 -->
+          <div class="exp-item fade-in-up delay-100">
+            <div class="exp-icon-wrapper">
+              <i data-feather="briefcase"></i>
+            </div>
+            <div class="exp-card glass-card">
+              <div class="exp-meta">
+                <span class="exp-duration">2025 - 2026</span>
+                <span class="exp-company">CreativeByte Studio</span>
+              </div>
+              <h3 class="exp-role">Frontend Developer</h3>
+              <p class="exp-desc">
+                Membangun antarmuka web responsif berkinerja tinggi dari desain Figma pixel-perfect. Menggunakan JavaScript modern, CSS kustom, dan optimasi SEO guna memaksimalkan indeks pencarian browser serta engagement pengguna.
+              </p>
+            </div>
+          </div>
+          
+          <!-- Pendidikan -->
+          <div class="exp-item fade-in-up delay-200">
+            <div class="exp-icon-wrapper">
+              <i data-feather="book-open"></i>
+            </div>
+            <div class="exp-card glass-card">
+              <div class="exp-meta">
+                <span class="exp-duration">2025 - 2027</span>
+                <span class="exp-company">Politeknik LP3I Padang</span>
+              </div>
+              <h3 class="exp-role">D3 Informatika Komputer</h3>
+              <p class="exp-desc">
+                Lulus dengan IPK sangat memuaskan. Berfokus pada Rekayasa Perangkat Lunak, Struktur Data, dan Pemrograman Web. Aktif berpartisipasi dalam laboratorium riset teknologi dan proyek asisten dosen pemrograman dasar.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       CONTACT SECTION
+       ========================================== -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="section-header fade-in-up">
+        <span class="section-tag">Kontak</span>
+        <h2 class="section-title">Hubungi <span>Saya</span></h2>
+        <div class="section-desc">Apakah Anda memiliki proyek menarik, tawaran kolaborasi, atau sekadar ingin menyapa? Silakan kirimkan pesan Anda melalui formulir di bawah ini.</div>
+      </div>
+      
+      <div class="contact-grid">
+        <!-- Informasi Kontak Kiri -->
+        <div class="contact-info fade-in-up">
+          <div class="contact-info-card glass-card">
+            <div class="contact-card-icon">
+              <i data-feather="mail"></i>
+            </div>
+            <div>
+              <div class="contact-card-title">EMAIL SAYA</div>
+              <a href="mailto:syawella@example.com" class="contact-card-value">syawellausni@gmail.com</a>
+            </div>
+          </div>
+          
+          <div class="contact-info-card glass-card">
+            <div class="contact-card-icon">
+              <i data-feather="map-pin"></i>
+            </div>
+            <div>
+              <div class="contact-card-title">LOKASI UTAMA</div>
+              <div class="contact-card-value">Indonesia</div>
+            </div>
+          </div>
+          
+          <div class="contact-info-card glass-card">
+            <div class="contact-card-icon">
+              <i data-feather="clock"></i>
+            </div>
+            <div>
+              <div class="contact-card-title">JAM KERJA</div>
+              <div class="contact-card-value">Senin - Jumat, 09:00 - 17:00 WIB</div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Formulir Kontak Kanan -->
+        <div class="contact-form-wrapper glass-card fade-in-up delay-200">
+          <form id="contact-form" class="contact-form" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <input type="text" id="name" class="form-input" placeholder=" " required>
+                <label for="name" class="form-label">Nama Lengkap</label>
+              </div>
+              <div class="form-group">
+                <input type="email" id="email" class="form-input" placeholder=" " required>
+                <label for="email" class="form-label">Alamat Email</label>
+              </div>
+            </div>
+            
+            <div class="form-group">
+              <input type="text" id="subject" class="form-input" placeholder=" " required>
+              <label for="subject" class="form-label">Subjek Pesan</label>
+            </div>
+            
+            <div class="form-group">
+              <textarea id="message" class="form-input" placeholder=" " required></textarea>
+              <label for="message" class="form-label">Pesan Anda</label>
+            </div>
+            
+            <div id="form-status" class="form-status"></div>
+            
+            <button type="submit" class="btn btn-primary" style="align-self: flex-start;">
+              Kirim Pesan <i data-feather="send"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       FOOTER
+       ========================================== -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-text">
+        &copy; 2026 Syawella Khairatul Usni. Hak Cipta Dilindungi Undang-Undang.
+      </div>
+      <div class="footer-links">
+        <a href="#home" class="footer-link">Beranda</a>
+        <a href="#about" class="footer-link">Tentang</a>
+        <a href="#projects" class="footer-link">Proyek</a>
+        <a href="#contact" class="footer-link">Kontak</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JS Script -->
+  <script src="script.js"></script>
+  
+  <script>
+    // Jalankan replacement ikon Feather setelah load
+    feather.replace();
+    
+    // Logika Mobile Nav Toggle sederhana
+    const mobileToggle = document.getElementById('mobile-toggle');
+    const navMenu = document.getElementById('nav-menu');
+    
+    mobileToggle.addEventListener('click', () => {
+      navMenu.style.display = navMenu.style.display === 'flex' ? 'none' : 'flex';
+      if (navMenu.style.display === 'flex') {
+        navMenu.style.flexDirection = 'column';
+        navMenu.style.position = 'absolute';
+        navMenu.style.top = '100%';
+        navMenu.style.left = '0';
+        navMenu.style.width = '100%';
+        navMenu.style.background = 'var(--navbar-bg)';
+        navMenu.style.padding = '20px';
+        navMenu.style.borderBottom = '1px solid var(--border-color)';
+        navMenu.style.backdropFilter = 'blur(16px)';
+      }
+    });
+
+    // Perbarui active state menu saat scrolling
+    const sections = document.querySelectorAll('section');
+    const navLinks = document.querySelectorAll('.nav-link');
+
+    window.addEventListener('scroll', () => {
+      let current = '';
+      sections.forEach(section => {
+        const sectionTop = section.offsetTop;
+        const sectionHeight = section.clientHeight;
+        if (window.scrollY >= (sectionTop - 150)) {
+          current = section.getAttribute('id');
+        }
+      });
+
+      navLinks.forEach(link => {
+        link.classList.remove('active');
+        if (link.getAttribute('href').slice(1) === current) {
+          link.classList.add('active');
+        }
+      });
+    });
+  </script>
+</body>
+</html>
